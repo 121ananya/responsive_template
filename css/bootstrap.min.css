@@ -507,14 +507,19 @@ progress {
     }
 }
 
-.display-3 {
+
+#im1 {
     font-size: calc(1.525rem + 3.3vw);
-    font-weight: 800;
+    font-weight: 500;
     line-height: 1.2;
-    color: greenyellow !important;
     position: absolute;
     bottom: 0;
     left: 0;
+    color : greenyellow !important;
+}
+#im {
+    font-size: xx-large;
+    color: white ;
 }
 
 @media (min-width: 1200px) {
