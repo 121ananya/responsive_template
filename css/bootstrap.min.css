@@ -1,9 +1,4 @@
-/*!
- * Bootstrap v5.0.0 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
@@ -515,7 +510,11 @@ progress {
 .display-3 {
     font-size: calc(1.525rem + 3.3vw);
     font-weight: 800;
-    line-height: 1.2
+    line-height: 1.2;
+    color: greenyellow !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 @media (min-width: 1200px) {
@@ -8335,12 +8334,7 @@ fieldset:disabled .btn {
     color: #14141F !important
 }
 
-.text-white {
-    color: greenyellow!important;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
+
 
 .text-body {
     color: #808B8D !important
